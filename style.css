@@ -4,14 +4,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-.banner{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-
-    gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(homepage-background.jpg);
-    background-size:cover;
-    background-position: center;
-}
 
 /* Header styling */
 header {
@@ -19,6 +11,13 @@ header {
     color: #fff;
     text-align: center;
     padding: 1rem;
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(homepage-background.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 header h1 {
